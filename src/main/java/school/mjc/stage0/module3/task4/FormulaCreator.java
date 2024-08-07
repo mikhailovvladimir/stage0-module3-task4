@@ -5,12 +5,19 @@ public class FormulaCreator {
         double a = 1.0;
         double b = 2.0;
 
-        double firstPart = 9 * Math.pow(a, 2) - 5 * b + 2 + a - 7;
+        byte nine = 9;
+        byte two = 2;
+        byte five = 5;
+        byte seven = 7;
+        byte four = 4;
 
-        double secondPart = (a + b - 4 * a * b) / 2;
+        double firstPart = nine * Math.pow(a, two) - five * b + two + a - seven;
+
+        double secondPart = (a + b - four * a * b) / two;
 
         double result = firstPart * secondPart;
 
         System.out.println(result);
+
     }
 }
