@@ -5,18 +5,8 @@ public class FormulaCreator {
         double a = 1.0;
         double b = 2.0;
 
-        byte nine = 9;
-        byte two = 2;
-        byte five = 5;
-        byte seven = 7;
-        byte four = 4;
-        double firstPart = nine * a * a - five * b + two + a - seven;
-
-        double secondPart = (a + b - four * a * b) / two;
-
-        double result = firstPart * secondPart;
+        double result = (9 * a * a - 5 * b + 2 + a - 7) * ((a + b - 4 * a * b) / 2);
 
         System.out.println(result);
-
     }
 }
