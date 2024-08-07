@@ -11,6 +11,6 @@ public class FormulaCreator {
 
         double result = firstPart * secondPart;
 
-        System.out.println("Результат формулы: " + result);
+        System.out.println(result);
     }
 }
