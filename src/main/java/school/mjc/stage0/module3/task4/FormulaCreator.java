@@ -10,8 +10,7 @@ public class FormulaCreator {
         byte five = 5;
         byte seven = 7;
         byte four = 4;
-
-        double firstPart = nine * Math.pow(a, two) - five * b + two + a - seven;
+        double firstPart = nine * a * a - five * b + two + a - seven;
 
         double secondPart = (a + b - four * a * b) / two;
 
