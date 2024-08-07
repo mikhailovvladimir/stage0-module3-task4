@@ -1,5 +1,4 @@
 package school.mjc.stage0.module3.task4;
-import java.util.logging.Logger;
 
 public class IntRepresentation {
     public static void main(String[] args) {
